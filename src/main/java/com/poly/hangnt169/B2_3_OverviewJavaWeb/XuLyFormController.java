@@ -21,7 +21,7 @@ public class XuLyFormController extends HttpServlet {
         // Truyền giá trị từ servlet sang jsp
         request.setAttribute("h1","Xin chao");
         // chuyển trang
-        request.getRequestDispatcher("login.jsp").forward(request,response);
+        request.getRequestDispatcher("/lab/login.jsp").forward(request,response);
 //        response.sendRedirect("/login.jsp");
     }
 
@@ -36,6 +36,6 @@ public class XuLyFormController extends HttpServlet {
         request.setAttribute("t2",password);
 
         // chuyen trang
-        request.getRequestDispatcher("hien-thi.jsp").forward(request,response);
+        request.getRequestDispatcher("/lab/view/hien-thi.jsp").forward(request,response);
     }
 }
