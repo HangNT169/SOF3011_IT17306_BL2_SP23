@@ -10,6 +10,7 @@ import java.util.List;
  * @author hangnt169
  */
 public class SinhVienServiceImpl implements SinhVienService {
+
     @Override
     public List<SinhVien> fakeData() {
         List<SinhVien>sinhViens = new ArrayList<>();
@@ -21,5 +22,15 @@ public class SinhVienServiceImpl implements SinhVienService {
         sinhViens.add(new SinhVien("TienNH21", "Nguyễn Hoàng Tiến", 14, "Hà Nội3", true));
         sinhViens.add(new SinhVien("DungNA29", "Nguyễn Anh Dũng", 15, "Hà Nội4", true));
         return sinhViens;
+    }
+
+    @Override
+    public void removeStudent(List<SinhVien> lists, int index) {
+        lists.remove(index);
+    }
+
+    @Override
+    public SinhVien getOne(List<SinhVien> lists, int index) {
+        return lists.get(index);
     }
 }
