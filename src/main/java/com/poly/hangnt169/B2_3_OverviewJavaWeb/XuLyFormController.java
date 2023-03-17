@@ -9,7 +9,7 @@ import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 
-@WebServlet(name = "XuLyFormController", value = {"/login","/ket-qua"})
+@WebServlet(name = "XuLyFormController", value = {"/login1","/ket-qua"})
 public class XuLyFormController extends HttpServlet {
     // Controller là tầng trung gian trao đổi giữa client (view - giao diện) với server
     // thông qua phương thức http
