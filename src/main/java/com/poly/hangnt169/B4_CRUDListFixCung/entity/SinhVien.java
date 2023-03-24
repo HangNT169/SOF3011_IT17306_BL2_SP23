@@ -22,7 +22,7 @@ public class SinhVien {
     private String mssv;
     private String ten;
     private int tuoi;
-    private String diaChi;
-    private boolean gioiTinh;
+    private String DIacHI;
+    private boolean GiOItiNH;
 
 }

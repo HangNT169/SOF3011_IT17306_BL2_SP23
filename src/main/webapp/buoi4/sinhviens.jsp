@@ -38,8 +38,8 @@
                 <td>${sv.mssv}</td>
                 <td>${sv.ten}</td>
                 <td>${sv.tuoi}</td>
-                <td>${sv.diaChi}</td>
-                <td>${sv.gioiTinh}</td>
+                <td>${sv.DIacHI}</td>
+                <td>${sv.GiOItiNH}</td>
                 <td>
                     <a href="/sinh-vien/remove?id=${viTri.index}">Delete</a>
                     <a href="/sinh-vien/view-update?id=${viTri.index}">Update</a>
